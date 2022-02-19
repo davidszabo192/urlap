@@ -59,6 +59,18 @@ main {
   margin: auto;
 }
 
+/*űrlap formázása*/
+
+#nevek {
+  display: grid;
+  grid-template-columns: 100px auto;
+ 
+
+}
+#nevek {
+  text-align: right;
+  padding-right: 5px;
+}
 @media screen and (max-width: 600px) {
   main {
     width: 100%;
@@ -78,4 +90,14 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  #nevek {
+    grid-template-columns: auto;
+   
+  
+  }
+  #nevek {
+    text-align: left;
+  
+  }
 }
+

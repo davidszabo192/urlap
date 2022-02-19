@@ -23,13 +23,42 @@
       <article>
         <form action="/action_page.php" method="post">
           <label for="vnev">Vezetéknév: </label>
-          <input type="text" id="vnev" name="vnev" /><br /><br />
-          
+          <input type="text" id="vnev" name="vnev" placeholder="vezetéknév" /><br /><br />
+
           <label for="knev">Keresztnév:</label>
           <input type="text" id="knev" name="knev" /><br /><br />
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+          <label for="html">HTML</label><br />
+<fieldset id="nevek">
+  <legend>Kedvenc nyelv</legend>
+          <input type="radio" id="css" name="fav_language" value="CSS" />
+          <label for="css">CSS</label><br />
+          <input
+            type="radio"
+            id="férfi"
+            name="nem"
+            value="férfi"
+          />
+          <label for="javascript">JavaScript</label>
           
-          <input type="submit" value="OK" />
+          <label for="css">CSS</label><br />
+          <input
+            type="radio"
+            id="nő"
+            name="nem"
+            value="nő"
+          />
+          
+          <input
+            type="radio"
+            id="nő"
+            name="nem"
+            value="nő"
+          />
+          <input type="button" value="OK" />
         </form>
+      </fieldset>
+
       </article>
       <footer>SzaboDavid</footer>
     </main>
