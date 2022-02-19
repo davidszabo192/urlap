@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="SzaboDavid">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="SzaboDavid" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SzaboDavid</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="stilus.css" />
+  </head>
+
+  <body>
+    <main>
+      <header>űrlapokról</header>
+      <nav>
+        <ul>
+          <li><a href="index.html">kezdölap</a></li>
+          <li><a href="urlap.html">urlap</a></li>
+        </ul>
+      </nav>
+      <article>
+        <form action="/action_page.php" method="post">
+          <label for="vnev">Vezetéknév: </label>
+          <input type="text" id="vnev" name="vnev" /><br /><br />
+          
+          <label for="knev">Keresztnév:</label>
+          <input type="text" id="knev" name="knev" /><br /><br />
+          
+          <input type="submit" value="OK" />
+        </form>
+      </article>
+      <footer>SzaboDavid</footer>
+    </main>
+  </body>
 </html>

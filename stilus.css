@@ -45,7 +45,7 @@ nav a {
   color: lightcoral;
 }
 nav ul {
-  list-style-type: pink;
+  list-style-type:none;
   padding: 0;
 }
 nav a:hover {
